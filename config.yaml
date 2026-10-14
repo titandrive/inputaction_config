@@ -7,8 +7,7 @@
 # actuator:button leftmeta+w = Meta+W
 # actuator:button leftshift+leftmeta+leftbrace = Shift+Meta+[
 # actuator:button leftshift+leftmeta+rightbrace = Shift+Meta+]
-# actuator:app Project Zomboid
-# actuator:folder Gaming = factorio
+# actuator:folder Gaming = factorio, Project Zomboid
 # actuator:foldericon Gaming = gamepad-2
 
 # ============================================================================
