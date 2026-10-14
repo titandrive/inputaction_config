@@ -8,7 +8,7 @@
 # actuator:button leftshift+leftmeta+leftbrace = Shift+Meta+[
 # actuator:button leftshift+leftmeta+rightbrace = Shift+Meta+]
 # actuator:folder Games = factorio
-# actuator:foldericon Games = flashlight
+# actuator:foldericon Games = file-diff
 
 # ============================================================================
 # MOUSE
