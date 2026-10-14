@@ -175,9 +175,9 @@ touchpad:
     conditions:
     - $window_class == firefox
     actions:
-    - input:
-      - keyboard: [leftctrl+pagedown]
-      'on': begin
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+t]
 
   - id: firefox_close_tab_click_5
     type: click
