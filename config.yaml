@@ -7,6 +7,7 @@
 # actuator:button leftmeta+w = Meta+W
 # actuator:button leftshift+leftmeta+leftbrace = Shift+Meta+[
 # actuator:button leftshift+leftmeta+rightbrace = Shift+Meta+]
+# actuator:folder Games = 
 
 # ============================================================================
 # MOUSE
