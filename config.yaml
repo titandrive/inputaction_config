@@ -163,9 +163,9 @@ touchpad:
     conditions:
     - $window_class == firefox
     actions:
-    - input:
-      - keyboard: [leftctrl+pageup]
-      'on': begin
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+t]
 
   - id: firefox_tabs_down
     type: swipe
