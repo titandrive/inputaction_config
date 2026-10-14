@@ -8,7 +8,7 @@
 # actuator:button leftshift+leftmeta+leftbrace = Shift+Meta+[
 # actuator:button leftshift+leftmeta+rightbrace = Shift+Meta+]
 # actuator:folder Games = factorio
-# actuator:foldericon Games = earth-lock
+# actuator:foldericon Games = dice-5
 
 # ============================================================================
 # MOUSE
