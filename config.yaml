@@ -1,0 +1,197 @@
+# InputActions configuration, managed by Actuator.
+# Actuator rewrites this file in this layout every time it saves.
+
+# Button names, apps, folders and devices used by Actuator. Safe to edit.
+# actuator:button back = back
+# actuator:button forward = forward
+# actuator:button leftmeta+w = Meta+W
+# actuator:button leftshift+leftmeta+leftbrace = Shift+Meta+[
+# actuator:button leftshift+leftmeta+rightbrace = Shift+Meta+]
+
+# ============================================================================
+# MOUSE
+# ============================================================================
+mouse:
+  gestures:
+
+  # Factorio
+  # --------------------------------------------------------------------------
+  # forward
+  - id: factorio_mouse_forward_e
+    type: press
+    mouse_buttons: [forward]
+    instant: true
+    conditions:
+    - $window_class matches (?i)factorio
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [e]
+
+  # back
+  - id: factorio_mouse_back_f
+    type: press
+    mouse_buttons: [back]
+    instant: true
+    conditions:
+    - $window_class matches (?i)factorio
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [+f]
+    - 'on': end_cancel
+      input:
+      - keyboard: [-f]
+
+# ============================================================================
+# KEYBOARD (includes mouse buttons that send shortcuts)
+# ============================================================================
+keyboard:
+  gestures:
+
+  # Factorio
+  # --------------------------------------------------------------------------
+  # Meta+W
+  - id: factorio_mouse_q
+    type: shortcut
+    shortcut: [leftmeta, w]
+    clear_modifiers: true
+    conditions:
+    - $window_class matches (?i)factorio
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [q]
+
+  # Shift+Meta+[
+  - id: factorio_mouse_rotate_left
+    type: shortcut
+    shortcut: [leftshift, leftmeta, leftbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class matches (?i)factorio
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftshift+r]
+
+  # Shift+Meta+]
+  - id: factorio_mouse_rotate_right
+    type: shortcut
+    shortcut: [leftshift, leftmeta, rightbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class matches (?i)factorio
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [r]
+
+  # Firefox
+  # --------------------------------------------------------------------------
+  # Shift+Meta+[
+  - id: firefox_mouse_tabs_left
+    type: shortcut
+    shortcut: [leftshift, leftmeta, leftbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+pageup]
+
+  # Shift+Meta+]
+  - id: firefox_mouse_tabs_right
+    type: shortcut
+    shortcut: [leftshift, leftmeta, rightbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+pagedown]
+
+  # Meta+W
+  - id: firefox_mouse_close_tab
+    type: shortcut
+    shortcut: [leftmeta, w]
+    clear_modifiers: true
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+w]
+
+# ============================================================================
+# TOUCHPAD
+# ============================================================================
+touchpad:
+  gestures:
+
+  # Global
+  # --------------------------------------------------------------------------
+  - id: global_window_switcher
+    type: swipe
+    fingers: 3
+    direction: left_right
+    block_events: true
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [+leftalt, tab]
+    - 'on': update
+      interval: -75
+      input:
+      - keyboard: [leftshift+tab]
+    - 'on': update
+      interval: 75
+      input:
+      - keyboard: [tab]
+    - 'on': end_cancel
+      input:
+      - keyboard: [-leftalt]
+
+  # Firefox
+  # --------------------------------------------------------------------------
+  - id: firefox_tabs_up
+    type: swipe
+    fingers: 3
+    direction: up
+    conditions:
+    - $window_class == firefox
+    actions:
+    - input:
+      - keyboard: [leftctrl+pageup]
+      'on': begin
+
+  - id: firefox_tabs_down
+    type: swipe
+    fingers: 3
+    direction: down
+    conditions:
+    - $window_class == firefox
+    actions:
+    - input:
+      - keyboard: [leftctrl+pagedown]
+      'on': begin
+
+  - id: firefox_close_tab_click_5
+    type: click
+    fingers: 5
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': end
+      input:
+      - keyboard: [leftctrl+w]
+
+# ============================================================================
+# DEVICE SETTINGS
+# ============================================================================
+device_rules:
+- conditions: $touchpad
+  swipe:
+    angle_tolerance: 45
