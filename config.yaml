@@ -189,17 +189,6 @@ touchpad:
       input:
       - keyboard: [leftctrl+w]
 
-  - id: firefox_touchpad_pinch
-    type: pinch
-    fingers: 2
-    direction: in
-    conditions:
-    - $window_class == firefox
-    actions:
-    - 'on': begin
-      input:
-      - keyboard: [leftctrl+a]
-
 # ============================================================================
 # DEVICE SETTINGS
 # ============================================================================
