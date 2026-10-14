@@ -166,7 +166,7 @@ touchpad:
     actions:
     - 'on': begin
       input:
-      - keyboard: [leftctrl+leftshift+t]
+      - keyboard: [leftctrl+leftshift+tab]
 
   - id: firefox_tabs_down
     type: swipe
@@ -177,7 +177,7 @@ touchpad:
     actions:
     - 'on': begin
       input:
-      - keyboard: [leftctrl+t]
+      - keyboard: [leftctrl+tab]
 
   - id: firefox_close_tab_click_5
     type: click
