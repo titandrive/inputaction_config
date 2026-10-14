@@ -165,7 +165,7 @@ touchpad:
     actions:
     - 'on': begin
       input:
-      - keyboard: [leftctrl+r]
+      - keyboard: [leftctrl+t]
 
   - id: firefox_tabs_down
     type: swipe
