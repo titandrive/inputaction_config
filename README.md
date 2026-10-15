@@ -12,7 +12,7 @@ Last updated October 15, 2026.
 |---|---|
 | 3-finger swipe either direction (left/right) | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt |
 
-## Games
+## Gaming
 
 ### Factorio
 
@@ -26,7 +26,9 @@ Last updated October 15, 2026.
 | Left Wheel | Shift+R |  |
 | Right Wheel | R |  |
 
-## Dolphin
+## Uncategorized
+
+### Dolphin
 
 **Keyboard**
 
@@ -34,7 +36,7 @@ Last updated October 15, 2026.
 |---|---|
 | Media | F4 |
 
-## Firefox
+### Firefox
 
 **Mouse**
 
