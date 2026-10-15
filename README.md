@@ -40,12 +40,12 @@ Last updated October 15, 2026.
 
 **Mouse**
 
-| Trigger | Action | Note |
-|---|---|---|
-| Stroke | Ctrl+A |  |
-| Left Wheel | Ctrl+PgUp | Switch tab (left) |
-| Right Wheel | Ctrl+PgDn | Switch tab (right) |
-| Side Button | Ctrl+W | Close Tab |
+| Trigger | Action | Only if | Note |
+|---|---|---|---|
+| Left | Ctrl+T | keys held include shift |  |
+| Left Wheel | Ctrl+PgUp |  | Switch tab (left) |
+| Right Wheel | Ctrl+PgDn |  | Switch tab (right) |
+| Side Button | Ctrl+W |  | Close Tab |
 
 **Touchpad**
 
