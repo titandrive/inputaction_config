@@ -30,7 +30,7 @@ Last updated October 14, 2026.
 
 | Trigger | Action | Note |
 |---|---|---|
-| Left Wheel | Ctrl+PgUp |  |
+| Left Wheel | Ctrl+PgUp | Switch tab (left) |
 | Right Wheel | Ctrl+PgDn |  |
 | Side Button | Ctrl+W | Close Tab |
 

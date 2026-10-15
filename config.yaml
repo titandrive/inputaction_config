@@ -96,6 +96,7 @@ keyboard:
   # Firefox
   # --------------------------------------------------------------------------
   # Left Wheel
+  # Note: Switch tab (left)
   - id: firefox_mouse_tabs_left
     type: shortcut
     shortcut: [leftshift, leftmeta, leftbrace]
