@@ -2,7 +2,7 @@
 
 # InputActions configuration
 
-Last updated October 14, 2026.
+Last updated October 15, 2026.
 
 ## Global
 
@@ -10,9 +10,11 @@ Last updated October 14, 2026.
 
 | Trigger | Action |
 |---|---|
-| 3-finger swipe left/right | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt |
+| 3-finger swipe either direction (left/right) | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt |
 
-## Factorio · Gaming
+## Games
+
+### Factorio
 
 **Mouse**
 
@@ -47,8 +49,8 @@ Last updated October 14, 2026.
 
 | Trigger | Action |
 |---|---|
-| 3-finger swipe up | Ctrl+Shift+Tab |
-| 3-finger swipe down | Ctrl+Tab |
+| 3-finger swipe bottom to top | Ctrl+Shift+Tab |
+| 3-finger swipe top to bottom | Ctrl+Tab |
 | 5-finger click | Ctrl+W |
 
 ## Device settings
