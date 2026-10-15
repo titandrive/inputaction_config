@@ -199,7 +199,7 @@ touchpad:
 
   - id: firefox_touchpad_stroke
     type: stroke
-    fingers: 3
+    fingers: 1
     conditions:
     - $window_class == firefox
     actions:
