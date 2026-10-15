@@ -8,7 +8,7 @@ Last updated October 14, 2026.
 
 **Touchpad**
 
-| Input | Action |
+| Trigger | Action |
 |---|---|
 | 3-finger swipe left/right | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt |
 
@@ -16,19 +16,19 @@ Last updated October 14, 2026.
 
 **Mouse**
 
-| Input | Action |
-|---|---|
-| forward | E |
-| back | on begin: Hold F; on end or cancel: Release F |
-| Meta+W | Q |
-| Shift+Meta+[ | Shift+R |
-| Shift+Meta+] | R |
+| Trigger | Action | Label |
+|---|---|---|
+| forward | E | Show blah |
+| back | Hold F |  |
+| Meta+W | Q |  |
+| Shift+Meta+[ | Shift+R |  |
+| Shift+Meta+] | R |  |
 
 ## Firefox
 
 **Mouse**
 
-| Input | Action |
+| Trigger | Action |
 |---|---|
 | Shift+Meta+[ | Ctrl+PgUp |
 | Shift+Meta+] | Ctrl+PgDn |
@@ -36,7 +36,7 @@ Last updated October 14, 2026.
 
 **Touchpad**
 
-| Input | Action |
+| Trigger | Action |
 |---|---|
 | 3-finger swipe up | Ctrl+Shift+Tab |
 | 3-finger swipe down | Ctrl+Tab |

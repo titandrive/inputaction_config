@@ -22,6 +22,7 @@ mouse:
   # Factorio
   # --------------------------------------------------------------------------
   # forward
+  # Label: Show blah
   - id: factorio_mouse_forward_e
     type: press
     mouse_buttons: [forward]
