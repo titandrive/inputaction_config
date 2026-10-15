@@ -108,7 +108,7 @@ keyboard:
   # Firefox
   # --------------------------------------------------------------------------
   # Left Wheel
-  # Note: Switch tab (left)
+  # Note: Previous Tab
   - id: firefox_mouse_tabs_left
     type: shortcut
     shortcut: [leftshift, leftmeta, leftbrace]

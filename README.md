@@ -34,7 +34,7 @@ Last updated October 15, 2026.
 
 | Trigger | Action | Note |
 |---|---|---|
-| Left Wheel | Ctrl+PgUp | Switch tab (left) |
+| Left Wheel | Ctrl+PgUp | Previous Tab |
 | Right Wheel | Ctrl+PgDn | Switch tab (right) |
 | Side Button | Ctrl+W | Close Tab |
 
