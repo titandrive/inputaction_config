@@ -26,7 +26,7 @@ Last updated October 15, 2026.
 | Left Wheel | Shift+R | Rotate item CCW |
 | Right Wheel | R | Rotate item CW |
 
-## Uncategorized
+## Productivity
 
 ### Firefox
 
