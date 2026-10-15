@@ -74,6 +74,7 @@ keyboard:
   # Factorio
   # --------------------------------------------------------------------------
   # Side Button
+  # Note: Clear Cursor
   - id: factorio_mouse_q
     type: shortcut
     shortcut: [leftmeta, w]

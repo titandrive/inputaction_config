@@ -22,7 +22,7 @@ Last updated October 15, 2026.
 |---|---|---|
 | Forward | E | Open/Close inventory |
 | Back | Hold F | Pick up item |
-| Side Button | Q |  |
+| Side Button | Q | Clear Cursor |
 | Left Wheel | Shift+R | Rotate item CCW |
 | Right Wheel | R | Rotate item CW |
 
