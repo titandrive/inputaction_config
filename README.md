@@ -22,7 +22,7 @@ Last updated October 14, 2026.
 | back | Hold F |  |
 | side button | Q |  |
 | Left Wheel | Shift+R |  |
-| Shift+Meta+] | R |  |
+| Right Wheel | R |  |
 
 ## Firefox
 
@@ -31,7 +31,7 @@ Last updated October 14, 2026.
 | Trigger | Action |
 |---|---|
 | Left Wheel | Ctrl+PgUp |
-| Shift+Meta+] | Ctrl+PgDn |
+| Right Wheel | Ctrl+PgDn |
 | side button | Ctrl+W |
 
 **Touchpad**
