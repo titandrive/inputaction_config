@@ -10,7 +10,7 @@
 # actuator:app Project Zomboid
 # actuator:app RimWorld
 # actuator:app dolphin
-# actuator:folder Gaming = factorio, RimWorld
+# actuator:folder Gaming = factorio, RimWorld, Project Zomboid
 # actuator:foldericon Gaming = gamepad-2
 
 # ============================================================================
