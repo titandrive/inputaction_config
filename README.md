@@ -20,7 +20,7 @@ Last updated October 15, 2026.
 
 | Trigger | Action | Note |
 |---|---|---|
-| Forward | E | Show blah |
+| Forward | E | Open/Close inventory |
 | Back | Hold F |  |
 | Side Button | Q |  |
 | Left Wheel | Shift+R | Rotate item CCW |

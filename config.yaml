@@ -22,7 +22,7 @@ mouse:
   # Factorio
   # --------------------------------------------------------------------------
   # Forward
-  # Note: Show blah
+  # Note: Open/Close inventory
   - id: factorio_mouse_forward_e
     type: press
     mouse_buttons: [forward]
