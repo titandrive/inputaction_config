@@ -49,6 +49,21 @@ mouse:
       input:
       - keyboard: [-f]
 
+  # Firefox
+  # --------------------------------------------------------------------------
+  - id: firefox_mouse_stroke
+    type: stroke
+    mouse_buttons: [right]
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': end
+      input:
+      - keyboard: [leftctrl+a]
+    strokes:
+    - AB0AA0cjOhxjRl7QZEBkAA==
+    - DEQA1BgBGCoxZD3fQ0VJ2FcAZAA=
+
 # ============================================================================
 # KEYBOARD (includes mouse buttons that send shortcuts)
 # ============================================================================
