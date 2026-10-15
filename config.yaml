@@ -121,7 +121,7 @@ keyboard:
       - keyboard: [leftctrl+pageup]
 
   # Right Wheel
-  # Note: Switch tab (right)
+  # Note: Next Tab
   - id: firefox_mouse_tabs_right
     type: shortcut
     shortcut: [leftshift, leftmeta, rightbrace]
