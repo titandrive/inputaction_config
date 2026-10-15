@@ -20,7 +20,7 @@ Last updated October 14, 2026.
 |---|---|---|
 | forward | E | Show blah |
 | back | Hold F |  |
-| side button | Q |  |
+| Side Button | Q |  |
 | Left Wheel | Shift+R |  |
 | Right Wheel | R |  |
 
@@ -32,7 +32,7 @@ Last updated October 14, 2026.
 |---|---|
 | Left Wheel | Ctrl+PgUp |
 | Right Wheel | Ctrl+PgDn |
-| side button | Ctrl+W |
+| Side Button | Ctrl+W |
 
 **Touchpad**
 
