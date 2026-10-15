@@ -44,7 +44,7 @@ Last updated October 15, 2026.
 |---|---|---|
 | 3-finger swipe up | Ctrl+Shift+Tab | Next Tab |
 | 3-finger swipe down | Ctrl+Tab | Previous Tab |
-| 5-finger click | Ctrl+W |  |
+| 5-finger click | Ctrl+W | Close tab |
 
 ## Device settings
 

@@ -201,6 +201,7 @@ touchpad:
       input:
       - keyboard: [leftctrl+tab]
 
+  # Note: Close tab
   - id: firefox_close_tab_click_5
     type: click
     fingers: 5
