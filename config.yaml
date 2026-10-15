@@ -4,7 +4,7 @@
 # Button names, apps, folders and devices used by Actuator. Safe to edit.
 # actuator:button back = back
 # actuator:button forward = forward
-# actuator:button leftmeta+w = Meta+W
+# actuator:button leftmeta+w = side button
 # actuator:button leftshift+leftmeta+leftbrace = Shift+Meta+[
 # actuator:button leftshift+leftmeta+rightbrace = Shift+Meta+]
 # actuator:app Project Zomboid
@@ -22,7 +22,7 @@ mouse:
   # Factorio
   # --------------------------------------------------------------------------
   # forward
-  # Label: Show blah
+  # Note: Show blah
   - id: factorio_mouse_forward_e
     type: press
     mouse_buttons: [forward]
@@ -57,7 +57,7 @@ keyboard:
 
   # Factorio
   # --------------------------------------------------------------------------
-  # Meta+W
+  # side button
   - id: factorio_mouse_q
     type: shortcut
     shortcut: [leftmeta, w]
@@ -119,7 +119,7 @@ keyboard:
       input:
       - keyboard: [leftctrl+pagedown]
 
-  # Meta+W
+  # side button
   - id: firefox_mouse_close_tab
     type: shortcut
     shortcut: [leftmeta, w]

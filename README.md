@@ -16,11 +16,11 @@ Last updated October 14, 2026.
 
 **Mouse**
 
-| Trigger | Action | Label |
+| Trigger | Action | Note |
 |---|---|---|
 | forward | E | Show blah |
 | back | Hold F |  |
-| Meta+W | Q |  |
+| side button | Q |  |
 | Shift+Meta+[ | Shift+R |  |
 | Shift+Meta+] | R |  |
 
@@ -32,7 +32,7 @@ Last updated October 14, 2026.
 |---|---|
 | Shift+Meta+[ | Ctrl+PgUp |
 | Shift+Meta+] | Ctrl+PgDn |
-| Meta+W | Ctrl+W |
+| side button | Ctrl+W |
 
 **Touchpad**
 
