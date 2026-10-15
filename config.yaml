@@ -35,6 +35,7 @@ mouse:
       - keyboard: [e]
 
   # Back
+  # Note: Pick up item
   - id: factorio_mouse_back_f
     type: press
     mouse_buttons: [back]

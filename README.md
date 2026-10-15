@@ -21,7 +21,7 @@ Last updated October 15, 2026.
 | Trigger | Action | Note |
 |---|---|---|
 | Forward | E | Open/Close inventory |
-| Back | Hold F |  |
+| Back | Hold F | Pick up item |
 | Side Button | Q |  |
 | Left Wheel | Shift+R | Rotate item CCW |
 | Right Wheel | R | Rotate item CW |
