@@ -41,7 +41,7 @@ Last updated October 14, 2026.
 | 3-finger swipe up | Ctrl+Shift+Tab |
 | 3-finger swipe down | Ctrl+Tab |
 | 5-finger click | Ctrl+W |
-| 1-finger stroke | Ctrl+A |
+| 3-finger stroke | Ctrl+A |
 
 ## Device settings
 
