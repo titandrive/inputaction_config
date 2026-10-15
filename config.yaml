@@ -213,6 +213,25 @@ touchpad:
       - keyboard: [leftctrl+w]
 
 # ============================================================================
+# TOUCHSCREEN
+# ============================================================================
+touchscreen:
+  gestures:
+
+  # Firefox
+  # --------------------------------------------------------------------------
+  - id: firefox_touchscreen_swipe
+    type: swipe
+    fingers: 3
+    direction: up
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+tab]
+
+# ============================================================================
 # DEVICE SETTINGS
 # ============================================================================
 device_rules:

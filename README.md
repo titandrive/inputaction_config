@@ -46,6 +46,12 @@ Last updated October 15, 2026.
 | 3-finger swipe down | Ctrl+Tab | Previous Tab |
 | 5-finger click | Ctrl+W | Close tab |
 
+**Touchscreen**
+
+| Trigger | Action |
+|---|---|
+| 3-finger swipe up | Ctrl+Tab |
+
 ## Device settings
 
 - **Touchpad**: swipe angle tolerance: 45
