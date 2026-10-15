@@ -13,6 +13,7 @@
 # actuator:folder Games = factorio, RimWorld, Project Zomboid
 # actuator:folder Productivity = firefox, org.kde.dolphin
 # actuator:foldericon Games = gamepad-2
+# actuator:foldericon Productivity = laptop-minimal-check
 
 # Actuator's options (Options → Store Preferences in Config). Safe to edit.
 # actuator:pref keep_versions = 10
