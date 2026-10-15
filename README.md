@@ -21,7 +21,7 @@ Last updated October 14, 2026.
 | forward | E | Show blah |
 | back | Hold F |  |
 | side button | Q |  |
-| Left Wheelsssssss | Shift+R |  |
+| Left Wheel | Shift+R |  |
 | Shift+Meta+] | R |  |
 
 ## Firefox
@@ -30,7 +30,7 @@ Last updated October 14, 2026.
 
 | Trigger | Action |
 |---|---|
-| Left Wheelsssssss | Ctrl+PgUp |
+| Left Wheel | Ctrl+PgUp |
 | Shift+Meta+] | Ctrl+PgDn |
 | side button | Ctrl+W |
 
