@@ -201,17 +201,6 @@ touchpad:
       input:
       - keyboard: [leftctrl+w]
 
-  - id: firefox_touchpad_tap
-    type: tap
-    fingers: 1
-    conditions:
-    - $window_class == firefox
-    - $keyboard_modifiers contains shift
-    actions:
-    - 'on': end
-      input:
-      - keyboard: [leftctrl+t]
-
 # ============================================================================
 # DEVICE SETTINGS
 # ============================================================================
