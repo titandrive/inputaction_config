@@ -138,19 +138,6 @@ keyboard:
       input:
       - keyboard: [leftctrl+w]
 
-  # Dolphin
-  # --------------------------------------------------------------------------
-  - id: dolphin_shortcut
-    type: shortcut
-    shortcut: [media]
-    clear_modifiers: true
-    conditions:
-    - $window_class == org.kde.dolphin
-    actions:
-    - 'on': begin
-      input:
-      - keyboard: [f4]
-
 # ============================================================================
 # TOUCHPAD
 # ============================================================================

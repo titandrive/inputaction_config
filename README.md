@@ -28,14 +28,6 @@ Last updated October 15, 2026.
 
 ## Uncategorized
 
-### Dolphin
-
-**Keyboard**
-
-| Trigger | Action |
-|---|---|
-| Media | F4 |
-
 ### Firefox
 
 **Mouse**
@@ -53,7 +45,7 @@ Last updated October 15, 2026.
 | 3-finger swipe bottom to top | Ctrl+Shift+Tab |  |
 | 3-finger swipe top to bottom | Ctrl+Tab |  |
 | 5-finger click | Ctrl+W |  |
-| 1-finger tap | Ctrl+T | keys held include shift |
+| 1-finger tap | Ctrl+T | Shift is held |
 
 ## Device settings
 
