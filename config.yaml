@@ -11,6 +11,7 @@
 # actuator:app RimWorld
 # actuator:app org.kde.dolphin
 # actuator:folder Games = factorio, RimWorld, Project Zomboid
+# actuator:folder Productivity = 
 # actuator:foldericon Games = gamepad-2
 
 # Actuator's options (Options → Store Preferences in Config). Safe to edit.
