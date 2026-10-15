@@ -120,6 +120,7 @@ keyboard:
       - keyboard: [leftctrl+pagedown]
 
   # Side Button
+  # Note: Close Tab
   - id: firefox_mouse_close_tab
     type: shortcut
     shortcut: [leftmeta, w]

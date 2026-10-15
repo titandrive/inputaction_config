@@ -28,11 +28,11 @@ Last updated October 14, 2026.
 
 **Mouse**
 
-| Trigger | Action |
-|---|---|
-| Left Wheel | Ctrl+PgUp |
-| Right Wheel | Ctrl+PgDn |
-| Side Button | Ctrl+W |
+| Trigger | Action | Note |
+|---|---|---|
+| Left Wheel | Ctrl+PgUp |  |
+| Right Wheel | Ctrl+PgDn |  |
+| Side Button | Ctrl+W | Close Tab |
 
 **Touchpad**
 
