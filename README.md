@@ -23,7 +23,7 @@ Last updated October 15, 2026.
 | Forward | E | Show blah |
 | Back | Hold F |  |
 | Side Button | Q |  |
-| Left Wheel | Shift+R |  |
+| Left Wheel | Shift+R | Rotate CCW |
 | Right Wheel | R |  |
 
 ## Uncategorized
