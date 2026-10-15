@@ -13,6 +13,14 @@
 # actuator:folder Games = factorio, RimWorld, Project Zomboid
 # actuator:foldericon Games = gamepad-2
 
+# Actuator's options (Options → Store Preferences in Config). Safe to edit.
+# actuator:pref keep_versions = 10
+# actuator:pref tabs = Mouse, Keyboard, Touchpad, Touchscreen
+# actuator:pref developer_mode = on
+# actuator:pref developer_options = yaml_editor, only_if, store_prefs, git_autocommit
+# actuator:pref git_push = on
+# actuator:pref git_readme = on
+
 # ============================================================================
 # MOUSE
 # ============================================================================

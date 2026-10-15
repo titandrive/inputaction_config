@@ -42,8 +42,8 @@ Last updated October 15, 2026.
 
 | Trigger | Action |
 |---|---|
-| 3-finger swipe bottom to top | Ctrl+Shift+Tab |
-| 3-finger swipe top to bottom | Ctrl+Tab |
+| 3-finger swipe up | Ctrl+Shift+Tab |
+| 3-finger swipe down | Ctrl+Tab |
 | 5-finger click | Ctrl+W |
 
 ## Device settings
