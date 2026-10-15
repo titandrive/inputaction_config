@@ -4,6 +4,7 @@
 # Button names, apps, folders and devices used by Actuator. Safe to edit.
 # actuator:button back = Back
 # actuator:button forward = Forward
+# actuator:button left = Left
 # actuator:button leftmeta+w = Side Button
 # actuator:button leftshift+leftmeta+leftbrace = Left Wheel
 # actuator:button leftshift+leftmeta+rightbrace = Right Wheel
