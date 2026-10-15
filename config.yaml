@@ -197,6 +197,18 @@ touchpad:
       input:
       - keyboard: [leftctrl+w]
 
+  - id: firefox_touchpad_stroke
+    type: stroke
+    fingers: 3
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': end
+      input:
+      - keyboard: [leftctrl+a]
+    strokes:
+    - AEcA2A8TGiEzUD3kZBNkAA==
+
 # ============================================================================
 # DEVICE SETTINGS
 # ============================================================================
