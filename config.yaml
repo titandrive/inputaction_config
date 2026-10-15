@@ -197,17 +197,6 @@ touchpad:
       input:
       - keyboard: [leftctrl+w]
 
-  - id: firefox_touchpad_circle
-    type: circle
-    fingers: 2
-    direction: clockwise
-    conditions:
-    - $window_class == firefox
-    actions:
-    - 'on': begin
-      input:
-      - keyboard: [leftctrl+a]
-
 # ============================================================================
 # DEVICE SETTINGS
 # ============================================================================
