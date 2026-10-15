@@ -85,7 +85,7 @@ keyboard:
       - keyboard: [q]
 
   # Left Wheel
-  # Note: Rotate CCW
+  # Note: Rotate item CCW
   - id: factorio_mouse_rotate_left
     type: shortcut
     shortcut: [leftshift, leftmeta, leftbrace]
