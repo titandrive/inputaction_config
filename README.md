@@ -19,7 +19,7 @@ Last updated October 14, 2026.
 | Trigger | Action | Note |
 |---|---|---|
 | Forward | E | Show blah |
-| back | Hold F |  |
+| Back | Hold F |  |
 | Side Button | Q |  |
 | Left Wheel | Shift+R |  |
 | Right Wheel | R |  |

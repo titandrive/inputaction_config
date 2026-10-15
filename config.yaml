@@ -2,7 +2,7 @@
 # Actuator rewrites this file in this layout every time it saves.
 
 # Button names, apps, folders and devices used by Actuator. Safe to edit.
-# actuator:button back = back
+# actuator:button back = Back
 # actuator:button forward = Forward
 # actuator:button leftmeta+w = Side Button
 # actuator:button leftshift+leftmeta+leftbrace = Left Wheel
@@ -34,7 +34,7 @@ mouse:
       input:
       - keyboard: [e]
 
-  # back
+  # Back
   - id: factorio_mouse_back_f
     type: press
     mouse_buttons: [back]
