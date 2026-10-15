@@ -18,7 +18,7 @@ Last updated October 14, 2026.
 
 | Trigger | Action | Note |
 |---|---|---|
-| forward | E | Show blah |
+| Forward | E | Show blah |
 | back | Hold F |  |
 | Side Button | Q |  |
 | Left Wheel | Shift+R |  |

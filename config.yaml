@@ -3,7 +3,7 @@
 
 # Button names, apps, folders and devices used by Actuator. Safe to edit.
 # actuator:button back = back
-# actuator:button forward = forward
+# actuator:button forward = Forward
 # actuator:button leftmeta+w = Side Button
 # actuator:button leftshift+leftmeta+leftbrace = Left Wheel
 # actuator:button leftshift+leftmeta+rightbrace = Right Wheel
@@ -21,7 +21,7 @@ mouse:
 
   # Factorio
   # --------------------------------------------------------------------------
-  # forward
+  # Forward
   # Note: Show blah
   - id: factorio_mouse_forward_e
     type: press
