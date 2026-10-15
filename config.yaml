@@ -177,6 +177,7 @@ touchpad:
 
   # Firefox
   # --------------------------------------------------------------------------
+  # Note: Next Tab
   - id: firefox_tabs_up
     type: swipe
     fingers: 3

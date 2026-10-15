@@ -40,11 +40,11 @@ Last updated October 15, 2026.
 
 **Touchpad**
 
-| Trigger | Action |
-|---|---|
-| 3-finger swipe up | Ctrl+Shift+Tab |
-| 3-finger swipe down | Ctrl+Tab |
-| 5-finger click | Ctrl+W |
+| Trigger | Action | Note |
+|---|---|---|
+| 3-finger swipe up | Ctrl+Shift+Tab | Next Tab |
+| 3-finger swipe down | Ctrl+Tab |  |
+| 5-finger click | Ctrl+W |  |
 
 ## Device settings
 
