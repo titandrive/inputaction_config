@@ -10,8 +10,8 @@
 # actuator:app Project Zomboid
 # actuator:app RimWorld
 # actuator:app org.kde.dolphin
-# actuator:folder Gaming = factorio, RimWorld, Project Zomboid
-# actuator:foldericon Gaming = gamepad-2
+# actuator:folder Games = factorio, RimWorld, Project Zomboid
+# actuator:foldericon Games = gamepad-2
 
 # ============================================================================
 # MOUSE

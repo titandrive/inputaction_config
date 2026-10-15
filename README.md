@@ -12,7 +12,7 @@ Last updated October 15, 2026.
 |---|---|
 | 3-finger swipe either direction (left/right) | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt |
 
-## Gaming
+## Games
 
 ### Factorio
 
