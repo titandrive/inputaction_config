@@ -1,0 +1,47 @@
+# InputActions configuration
+
+Last updated October 14, 2026.
+
+## Global
+
+**Touchpad**
+
+| Input | Action |
+|---|---|
+| 3-finger swipe left/right | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt |
+
+## Factorio · Gaming
+
+**Mouse**
+
+| Input | Action |
+|---|---|
+| forward | E |
+| back | on begin: Hold F; on end or cancel: Release F |
+| Meta+W | Q |
+| Shift+Meta+[ | Shift+R |
+| Shift+Meta+] | R |
+
+## Firefox
+
+**Mouse**
+
+| Input | Action |
+|---|---|
+| Shift+Meta+[ | Ctrl+PgUp |
+| Shift+Meta+] | Ctrl+PgDn |
+| Meta+W | Ctrl+W |
+
+**Touchpad**
+
+| Input | Action |
+|---|---|
+| 3-finger swipe up | Ctrl+Shift+Tab |
+| 3-finger swipe down | Ctrl+Tab |
+| 5-finger click | Ctrl+W |
+
+## Device settings
+
+- **Touchpad**: swipe angle tolerance: 45
+
+The full configuration is in [config.yaml](config.yaml).
