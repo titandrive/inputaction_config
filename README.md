@@ -40,20 +40,20 @@ Last updated October 15, 2026.
 
 **Mouse**
 
-| Trigger | Action | Only if | Note |
-|---|---|---|---|
-| Left | Ctrl+T | keys held include shift |  |
-| Left Wheel | Ctrl+PgUp |  | Switch tab (left) |
-| Right Wheel | Ctrl+PgDn |  | Switch tab (right) |
-| Side Button | Ctrl+W |  | Close Tab |
+| Trigger | Action | Note |
+|---|---|---|
+| Left Wheel | Ctrl+PgUp | Switch tab (left) |
+| Right Wheel | Ctrl+PgDn | Switch tab (right) |
+| Side Button | Ctrl+W | Close Tab |
 
 **Touchpad**
 
-| Trigger | Action |
-|---|---|
-| 3-finger swipe bottom to top | Ctrl+Shift+Tab |
-| 3-finger swipe top to bottom | Ctrl+Tab |
-| 5-finger click | Ctrl+W |
+| Trigger | Action | Only if |
+|---|---|---|
+| 3-finger swipe bottom to top | Ctrl+Shift+Tab |  |
+| 3-finger swipe top to bottom | Ctrl+Tab |  |
+| 5-finger click | Ctrl+W |  |
+| 1-finger tap | Ctrl+T | keys held include shift |
 
 ## Device settings
 

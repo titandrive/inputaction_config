@@ -4,7 +4,6 @@
 # Button names, apps, folders and devices used by Actuator. Safe to edit.
 # actuator:button back = Back
 # actuator:button forward = Forward
-# actuator:button left = Left
 # actuator:button leftmeta+w = Side Button
 # actuator:button leftshift+leftmeta+leftbrace = Left Wheel
 # actuator:button leftshift+leftmeta+rightbrace = Right Wheel
@@ -50,21 +49,6 @@ mouse:
     - 'on': end_cancel
       input:
       - keyboard: [-f]
-
-  # Firefox
-  # --------------------------------------------------------------------------
-  # Left
-  - id: firefox_left
-    type: press
-    mouse_buttons: [left]
-    instant: true
-    conditions:
-    - $window_class == firefox
-    - $keyboard_modifiers contains shift
-    actions:
-    - 'on': begin
-      input:
-      - keyboard: [leftctrl+t]
 
 # ============================================================================
 # KEYBOARD (includes mouse buttons that send shortcuts)
@@ -229,6 +213,17 @@ touchpad:
     - 'on': end
       input:
       - keyboard: [leftctrl+w]
+
+  - id: firefox_touchpad_tap
+    type: tap
+    fingers: 1
+    conditions:
+    - $window_class == firefox
+    - $keyboard_modifiers contains shift
+    actions:
+    - 'on': end
+      input:
+      - keyboard: [leftctrl+t]
 
 # ============================================================================
 # DEVICE SETTINGS
