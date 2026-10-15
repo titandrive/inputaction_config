@@ -70,6 +70,19 @@ mouse:
 keyboard:
   gestures:
 
+  # Dolphin
+  # --------------------------------------------------------------------------
+  - id: dolphin_shortcut
+    type: shortcut
+    shortcut: [media]
+    clear_modifiers: true
+    conditions:
+    - $window_class == dolphin
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [f4]
+
   # Factorio
   # --------------------------------------------------------------------------
   # Side Button

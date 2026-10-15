@@ -24,6 +24,14 @@ Last updated October 14, 2026.
 | Left Wheel | Shift+R |  |
 | Right Wheel | R |  |
 
+## Dolphin
+
+**Keyboard**
+
+| Trigger | Action |
+|---|---|
+| Media | F4 |
+
 ## Firefox
 
 **Mouse**
