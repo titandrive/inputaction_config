@@ -24,7 +24,7 @@ Last updated October 15, 2026.
 | Back | Hold F |  |
 | Side Button | Q |  |
 | Left Wheel | Shift+R | Rotate CCW |
-| Right Wheel | R |  |
+| Right Wheel | R | Rotate item CW |
 
 ## Uncategorized
 
