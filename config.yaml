@@ -61,6 +61,18 @@ mouse:
       input:
       - keyboard: [-f]
 
+  # Middle
+  - id: factorio_middle
+    type: press
+    mouse_buttons: [middle]
+    instant: true
+    conditions:
+    - $window_class == factorio
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [e]
+
 # ============================================================================
 # KEYBOARD (includes mouse buttons that send shortcuts)
 # ============================================================================
