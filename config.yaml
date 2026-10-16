@@ -69,7 +69,7 @@ keyboard:
   # Factorio
   # --------------------------------------------------------------------------
   # Side Button
-  # Note: Clear Cursor
+  # Note: Pipette Tool / Clear Selection
   - id: factorio_mouse_q
     type: shortcut
     shortcut: [leftmeta, w]

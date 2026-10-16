@@ -2,7 +2,7 @@
 
 # InputActions configuration
 
-Last updated October 15, 2026.
+Last updated October 16, 2026.
 
 ## Global
 
@@ -22,7 +22,7 @@ Last updated October 15, 2026.
 |---|---|---|
 | Forward | E | Open/Close inventory |
 | Back | Hold F | Pick up item |
-| Side Button | Q | Clear Cursor |
+| Side Button | Q | Pipette Tool / Clear Selection |
 | Left Wheel | Shift+R | Rotate item CCW |
 | Right Wheel | R | Rotate item CW |
 
