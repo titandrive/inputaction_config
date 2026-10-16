@@ -248,6 +248,18 @@ touchscreen:
       input:
       - keyboard: [leftctrl+tab]
 
+  # Note: Next tab
+  - id: firefox_touchscreen_swipe_2
+    type: swipe
+    fingers: 3
+    direction: down
+    conditions:
+    - $window_class == firefox
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+leftshift+tab]
+
 # ============================================================================
 # DEVICE SETTINGS
 # ============================================================================
