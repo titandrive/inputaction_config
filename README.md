@@ -51,7 +51,7 @@ Last updated October 16, 2026.
 
 | Trigger | Action | Note |
 |---|---|---|
-| 3-finger swipe up | Ctrl+Tab | Next tab |
+| 3-finger swipe up | Ctrl+Tab | Previous tab |
 
 ## Device settings
 
