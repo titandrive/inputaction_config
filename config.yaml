@@ -236,6 +236,7 @@ touchscreen:
 
   # Firefox
   # --------------------------------------------------------------------------
+  # Note: Next tab
   - id: firefox_touchscreen_swipe
     type: swipe
     fingers: 3

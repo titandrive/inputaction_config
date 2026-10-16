@@ -49,9 +49,9 @@ Last updated October 16, 2026.
 
 **Touchscreen**
 
-| Trigger | Action |
-|---|---|
-| 3-finger swipe up | Ctrl+Tab |
+| Trigger | Action | Note |
+|---|---|---|
+| 3-finger swipe up | Ctrl+Tab | Next tab |
 
 ## Device settings
 
