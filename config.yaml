@@ -170,6 +170,7 @@ touchpad:
 
   # Global
   # --------------------------------------------------------------------------
+  # Note: Open app switcher
   - id: global_window_switcher
     type: swipe
     fingers: 3

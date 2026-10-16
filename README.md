@@ -8,9 +8,9 @@ Last updated October 16, 2026.
 
 **Touchpad**
 
-| Trigger | Action |
-|---|---|
-| 3-finger swipe either direction (left/right) | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt |
+| Trigger | Action | Note |
+|---|---|---|
+| 3-finger swipe either direction (left/right) | on begin: Hold Alt, Tab; every -75: Shift+Tab; every +75: Tab; on end or cancel: Release Alt | Open app switcher |
 
 ## Games
 
