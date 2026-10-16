@@ -62,6 +62,7 @@ mouse:
       - keyboard: [-f]
 
   # Middle
+  # Note: Open/Close inventory
   - id: factorio_middle
     type: press
     mouse_buttons: [middle]

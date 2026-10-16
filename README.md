@@ -22,7 +22,7 @@ Last updated October 16, 2026.
 |---|---|---|
 | Forward | E | Open/Close inventory |
 | Back | Hold F | Pick up item |
-| Middle | E |  |
+| Middle | E | Open/Close inventory |
 | Side Button | Q | Pipette Tool / Clear Selection |
 | Left Wheel | Shift+R | Rotate item CCW |
 | Right Wheel | R | Rotate item CW |
