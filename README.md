@@ -54,6 +54,31 @@ Last updated October 20, 2026.
 | 3-finger swipe up | Ctrl+Tab | Previous tab |
 | 3-finger swipe down | Ctrl+Shift+Tab | Next tab |
 
+### Konsole
+
+**Mouse**
+
+| Trigger | Action | Note |
+|---|---|---|
+| Left Wheel | Ctrl+PgUp | Previous Tab |
+| Right Wheel | Ctrl+PgDn | Next Tab |
+| Side Button | Ctrl+W | Close Tab |
+
+**Touchpad**
+
+| Trigger | Action | Note |
+|---|---|---|
+| 3-finger swipe up | Ctrl+Shift+Tab | Next Tab |
+| 3-finger swipe down | Ctrl+Tab | Previous Tab |
+| 5-finger click | Ctrl+W | Close tab |
+
+**Touchscreen**
+
+| Trigger | Action | Note |
+|---|---|---|
+| 3-finger swipe up | Ctrl+Tab | Previous tab |
+| 3-finger swipe down | Ctrl+Shift+Tab | Next tab |
+
 ## Device settings
 
 - **Touchpad**: swipe angle tolerance: 45

@@ -163,6 +163,47 @@ keyboard:
       input:
       - keyboard: [leftctrl+w]
 
+  # Konsole
+  # --------------------------------------------------------------------------
+  # Left Wheel
+  # Note: Previous Tab
+  - id: org_kde_konsole_mouse_tabs_left
+    type: shortcut
+    shortcut: [leftshift, leftmeta, leftbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class == org.kde.konsole
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+pageup]
+
+  # Right Wheel
+  # Note: Next Tab
+  - id: org_kde_konsole_mouse_tabs_right
+    type: shortcut
+    shortcut: [leftshift, leftmeta, rightbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class == org.kde.konsole
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+pagedown]
+
+  # Side Button
+  # Note: Close Tab
+  - id: org_kde_konsole_mouse_close_tab
+    type: shortcut
+    shortcut: [leftmeta, w]
+    clear_modifiers: true
+    conditions:
+    - $window_class == org.kde.konsole
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+w]
+
 # ============================================================================
 # TOUCHPAD
 # ============================================================================
@@ -230,6 +271,43 @@ touchpad:
       input:
       - keyboard: [leftctrl+w]
 
+  # Konsole
+  # --------------------------------------------------------------------------
+  # Note: Next Tab
+  - id: org_kde_konsole_tabs_up
+    type: swipe
+    fingers: 3
+    direction: up
+    conditions:
+    - $window_class == org.kde.konsole
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+leftshift+tab]
+
+  # Note: Previous Tab
+  - id: org_kde_konsole_tabs_down
+    type: swipe
+    fingers: 3
+    direction: down
+    conditions:
+    - $window_class == org.kde.konsole
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+tab]
+
+  # Note: Close tab
+  - id: org_kde_konsole_close_tab_click_5
+    type: click
+    fingers: 5
+    conditions:
+    - $window_class == org.kde.konsole
+    actions:
+    - 'on': end
+      input:
+      - keyboard: [leftctrl+w]
+
 # ============================================================================
 # TOUCHSCREEN
 # ============================================================================
@@ -257,6 +335,32 @@ touchscreen:
     direction: down
     conditions:
     - $window_class == firefox
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+leftshift+tab]
+
+  # Konsole
+  # --------------------------------------------------------------------------
+  # Note: Previous tab
+  - id: org_kde_konsole_touchscreen_swipe
+    type: swipe
+    fingers: 3
+    direction: up
+    conditions:
+    - $window_class == org.kde.konsole
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+tab]
+
+  # Note: Next tab
+  - id: org_kde_konsole_touchscreen_swipe_2
+    type: swipe
+    fingers: 3
+    direction: down
+    conditions:
+    - $window_class == org.kde.konsole
     actions:
     - 'on': begin
       input:
