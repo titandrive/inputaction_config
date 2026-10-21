@@ -283,7 +283,7 @@ touchpad:
     actions:
     - 'on': begin
       input:
-      - keyboard: [leftshift+right]
+      - keyboard: [leftshift+left]
 
   # Note: Previous Tab
   - id: org_kde_konsole_tabs_down
@@ -295,7 +295,7 @@ touchpad:
     actions:
     - 'on': begin
       input:
-      - keyboard: [leftshift+left]
+      - keyboard: [leftshift+right]
 
   # Note: Close tab
   - id: org_kde_konsole_close_tab_click_5
