@@ -297,17 +297,6 @@ touchpad:
       input:
       - keyboard: [leftctrl+tab]
 
-  # Note: Close tab
-  - id: org_kde_konsole_close_tab_click_5
-    type: click
-    fingers: 5
-    conditions:
-    - $window_class == org.kde.konsole
-    actions:
-    - 'on': end
-      input:
-      - keyboard: [leftctrl+w]
-
 # ============================================================================
 # TOUCHSCREEN
 # ============================================================================
