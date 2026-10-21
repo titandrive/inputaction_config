@@ -285,7 +285,7 @@ touchpad:
       input:
       - keyboard: [leftshift+left]
 
-  # Note: Previous Tab
+  # Note: Next Tab
   - id: org_kde_konsole_tabs_down
     type: swipe
     fingers: 3

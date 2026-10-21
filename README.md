@@ -69,7 +69,7 @@ Last updated October 20, 2026.
 | Trigger | Action | Note |
 |---|---|---|
 | 3-finger swipe up | Shift+Left | Previous Tab |
-| 3-finger swipe down | Shift+Right | Previous Tab |
+| 3-finger swipe down | Shift+Right | Next Tab |
 | 5-finger click | Ctrl+W | Close tab |
 
 **Touchscreen**
