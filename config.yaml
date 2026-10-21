@@ -13,7 +13,7 @@
 # actuator:app org.kde.dolphin
 # actuator:app org.kde.konsole
 # actuator:folder Games = factorio, RimWorld, Project Zomboid
-# actuator:folder Productivity = firefox, org.kde.dolphin
+# actuator:folder Productivity = firefox, org.kde.dolphin, org.kde.konsole
 # actuator:foldericon Games = gamepad-2
 # actuator:foldericon Productivity = laptop
 
