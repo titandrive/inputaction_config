@@ -62,7 +62,7 @@ Last updated October 20, 2026.
 |---|---|---|
 | Left Wheel | Shift+Left | Previous Tab |
 | Right Wheel | Shift+Right | Next Tab |
-| Side Button | Ctrl+W | Close Tab |
+| Side Button | Ctrl+Shift+W | Close Tab |
 
 **Touchpad**
 
@@ -70,7 +70,7 @@ Last updated October 20, 2026.
 |---|---|---|
 | 3-finger swipe up | Shift+Left | Previous Tab |
 | 3-finger swipe down | Shift+Right | Next Tab |
-| 5-finger click | Ctrl+W | Close tab |
+| 5-finger click | Ctrl+Shift+W | Close tab |
 
 **Touchscreen**
 

@@ -202,7 +202,7 @@ keyboard:
     actions:
     - 'on': begin
       input:
-      - keyboard: [leftctrl+w]
+      - keyboard: [leftctrl+leftshift+w]
 
 # ============================================================================
 # TOUCHPAD
@@ -306,7 +306,7 @@ touchpad:
     actions:
     - 'on': end
       input:
-      - keyboard: [leftctrl+w]
+      - keyboard: [leftctrl+leftshift+w]
 
 # ============================================================================
 # TOUCHSCREEN
