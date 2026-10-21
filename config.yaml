@@ -273,23 +273,10 @@ touchpad:
 
   # Konsole
   # --------------------------------------------------------------------------
-  # Note: Next Tab
-  - id: org_kde_konsole_tabs_up
+  - id: org_kde_konsole_touchpad_swipe
     type: swipe
     fingers: 3
     direction: up
-    conditions:
-    - $window_class == org.kde.konsole
-    actions:
-    - 'on': begin
-      input:
-      - keyboard: [leftctrl+leftshift+tab]
-
-  # Note: Previous Tab
-  - id: org_kde_konsole_tabs_down
-    type: swipe
-    fingers: 3
-    direction: down
     conditions:
     - $window_class == org.kde.konsole
     actions:

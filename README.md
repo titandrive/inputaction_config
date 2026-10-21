@@ -66,10 +66,9 @@ Last updated October 20, 2026.
 
 **Touchpad**
 
-| Trigger | Action | Note |
-|---|---|---|
-| 3-finger swipe up | Ctrl+Shift+Tab | Next Tab |
-| 3-finger swipe down | Ctrl+Tab | Previous Tab |
+| Trigger | Action |
+|---|---|
+| 3-finger swipe up | Ctrl+Tab |
 
 **Touchscreen**
 
