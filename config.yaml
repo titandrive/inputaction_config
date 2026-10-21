@@ -273,7 +273,7 @@ touchpad:
 
   # Konsole
   # --------------------------------------------------------------------------
-  # Note: Next Tab
+  # Note: Previous Tab
   - id: org_kde_konsole_tabs_up
     type: swipe
     fingers: 3
