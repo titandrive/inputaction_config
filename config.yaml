@@ -11,6 +11,7 @@
 # actuator:app Project Zomboid
 # actuator:app RimWorld
 # actuator:app org.kde.dolphin
+# actuator:app org.kde.konsole
 # actuator:folder Games = factorio, RimWorld, Project Zomboid
 # actuator:folder Productivity = firefox, org.kde.dolphin
 # actuator:foldericon Games = gamepad-2

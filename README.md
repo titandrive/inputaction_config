@@ -2,7 +2,7 @@
 
 # InputActions configuration
 
-Last updated October 16, 2026.
+Last updated October 20, 2026.
 
 ## Global
 
