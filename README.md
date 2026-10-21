@@ -56,12 +56,21 @@ Last updated October 20, 2026.
 
 ### Konsole
 
+**Mouse**
+
+| Trigger | Action | Note |
+|---|---|---|
+| Left Wheel | Shift+Left | Previous Tab |
+| Right Wheel | Shift+Right | Next Tab |
+| Side Button | Ctrl+W | Close Tab |
+
 **Touchpad**
 
 | Trigger | Action | Note |
 |---|---|---|
-| 3-finger swipe up | Ctrl+Shift+Tab | Next Tab |
-| 3-finger swipe down | Ctrl+Tab | Previous Tab |
+| 3-finger swipe up | Shift+Right | Next Tab |
+| 3-finger swipe down | Shift+Left | Previous Tab |
+| 5-finger click | Ctrl+W | Close tab |
 
 **Touchscreen**
 
