@@ -248,7 +248,7 @@ touchpad:
       input:
       - keyboard: [leftctrl+leftshift+tab]
 
-  # Note: Previous Tab
+  # Note: Next Tab
   - id: firefox_tabs_down
     type: swipe
     fingers: 3
