@@ -7,6 +7,7 @@
 # actuator:button leftmeta+w = Side Button
 # actuator:button leftshift+leftmeta+leftbrace = Left Wheel
 # actuator:button leftshift+leftmeta+rightbrace = Right Wheel
+# actuator:button leftshift+leftmeta+s = Shift+Meta+S
 # actuator:button middle = Middle
 # actuator:app Project Zomboid
 # actuator:app RimWorld
