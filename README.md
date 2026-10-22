@@ -35,7 +35,7 @@ Last updated October 21, 2026.
 |---|---|---|
 | Forward | E | Activate |
 | Back | Tab | Open Phone |
-| Side Button | Hold M |  |
+| Side Button | Hold M | Open Map |
 
 ## Productivity
 
