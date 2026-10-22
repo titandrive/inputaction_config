@@ -33,7 +33,7 @@ Last updated October 21, 2026.
 
 | Trigger | Action | Note |
 |---|---|---|
-| Forward | E | Activate |
+| Forward |  | Activate |
 | Back | Tab | Open Phone |
 | Side Button | Hold M | Open Map |
 

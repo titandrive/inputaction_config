@@ -54,7 +54,7 @@ mouse:
     actions:
     - 'on': begin
       input:
-      - keyboard: [e]
+      - keyboard: []
 
   # Back
   # Note: Open Phone
