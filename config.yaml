@@ -10,6 +10,7 @@
 # actuator:button middle = Middle
 # actuator:app Project Zomboid
 # actuator:app RimWorld
+# actuator:app Schedule I
 # actuator:app org.kde.dolphin
 # actuator:app org.kde.konsole
 # actuator:folder Games = factorio, RimWorld, Project Zomboid
