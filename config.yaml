@@ -36,6 +36,42 @@
 mouse:
   gestures:
 
+  # Schedule I
+  # --------------------------------------------------------------------------
+  # Forward
+  - id: schedule_i_forward
+    type: press
+    mouse_buttons: [forward]
+    instant: true
+    conditions:
+    - any:
+      - $window_class matches (?i)^Schedule\ I$
+      - $window_class == steam_app_3164500
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Schedule\ I
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: []
+
+  # Back
+  - id: schedule_i_back
+    type: press
+    mouse_buttons: [back]
+    instant: true
+    conditions:
+    - any:
+      - $window_class matches (?i)^Schedule\ I$
+      - $window_class == steam_app_3164500
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Schedule\ I
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [tab]
+
   # Factorio
   # --------------------------------------------------------------------------
   # Forward
@@ -118,10 +154,10 @@ keyboard:
     actions:
     - 'on': begin
       input:
-      - keyboard: [+e]
+      - keyboard: [+m]
     - 'on': end_cancel
       input:
-      - keyboard: [-e]
+      - keyboard: [-m]
 
   # Factorio
   # --------------------------------------------------------------------------

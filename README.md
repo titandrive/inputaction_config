@@ -33,7 +33,9 @@ Last updated October 21, 2026.
 
 | Trigger | Action |
 |---|---|
-| Side Button | Hold E |
+| Forward |  |
+| Back | Tab |
+| Side Button | Hold M |
 
 ## Productivity
 
