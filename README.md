@@ -34,7 +34,7 @@ Last updated October 21, 2026.
 | Trigger | Action | Note |
 |---|---|---|
 | Forward | E | Activate |
-| Back | Tab |  |
+| Back | Tab | Open Phone |
 | Side Button | Hold M |  |
 
 ## Productivity

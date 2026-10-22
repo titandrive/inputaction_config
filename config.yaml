@@ -57,6 +57,7 @@ mouse:
       - keyboard: [e]
 
   # Back
+  # Note: Open Phone
   - id: schedule_i_back
     type: press
     mouse_buttons: [back]
