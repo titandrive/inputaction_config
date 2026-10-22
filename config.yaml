@@ -39,6 +39,7 @@ mouse:
   # Schedule I
   # --------------------------------------------------------------------------
   # Forward
+  # Note: Activate
   - id: schedule_i_forward
     type: press
     mouse_buttons: [forward]

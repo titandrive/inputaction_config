@@ -31,11 +31,11 @@ Last updated October 21, 2026.
 
 **Mouse**
 
-| Trigger | Action |
-|---|---|
-| Forward | E |
-| Back | Tab |
-| Side Button | Hold M |
+| Trigger | Action | Note |
+|---|---|---|
+| Forward | E | Activate |
+| Back | Tab |  |
+| Side Button | Hold M |  |
 
 ## Productivity
 
