@@ -27,6 +27,14 @@ Last updated October 21, 2026.
 | Left Wheel | Shift+R | Rotate item CCW |
 | Right Wheel | R | Rotate item CW |
 
+### Schedule I
+
+**Mouse**
+
+| Trigger | Action |
+|---|---|
+| Side Button | E |
+
 ## Productivity
 
 ### Firefox

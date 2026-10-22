@@ -82,6 +82,20 @@ mouse:
 keyboard:
   gestures:
 
+  # Schedule I
+  # --------------------------------------------------------------------------
+  # Side Button
+  - id: schedule_i_side_button
+    type: shortcut
+    shortcut: [leftmeta, w]
+    clear_modifiers: true
+    conditions:
+    - $window_class matches (?i)^Schedule\ I$
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [e]
+
   # Factorio
   # --------------------------------------------------------------------------
   # Side Button
