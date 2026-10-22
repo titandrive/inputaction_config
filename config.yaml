@@ -17,7 +17,10 @@
 # actuator:folder Productivity = firefox, org.kde.dolphin, org.kde.konsole
 # actuator:foldericon Games = gamepad-2
 # actuator:foldericon Productivity = laptop
-# actuator:gamescope Schedule I
+# actuator:game Project Zomboid = 108600
+# actuator:game RimWorld = 294100
+# actuator:game Schedule I = 3164500
+# actuator:game factorio = 427520
 
 # Actuator's options (Options → Store Preferences in Config). Safe to edit.
 # actuator:pref keep_versions = 10
@@ -42,7 +45,12 @@ mouse:
     mouse_buttons: [forward]
     instant: true
     conditions:
-    - $window_class matches (?i)factorio
+    - any:
+      - $window_class == factorio
+      - $window_class == steam_app_427520
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Factorio
     actions:
     - 'on': begin
       input:
@@ -55,7 +63,12 @@ mouse:
     mouse_buttons: [back]
     instant: true
     conditions:
-    - $window_class matches (?i)factorio
+    - any:
+      - $window_class == factorio
+      - $window_class == steam_app_427520
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Factorio
     actions:
     - 'on': begin
       input:
@@ -71,7 +84,12 @@ mouse:
     mouse_buttons: [middle]
     instant: true
     conditions:
-    - $window_class == factorio
+    - any:
+      - $window_class == factorio
+      - $window_class == steam_app_427520
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Factorio
     actions:
     - 'on': begin
       input:
@@ -91,8 +109,12 @@ keyboard:
     shortcut: [leftmeta, w]
     clear_modifiers: true
     conditions:
-    - $window_class == gamescope
-    - $window_title == Schedule I
+    - any:
+      - $window_class matches (?i)^Schedule\ I$
+      - $window_class == steam_app_3164500
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Schedule\ I
     actions:
     - 'on': begin
       input:
@@ -110,7 +132,12 @@ keyboard:
     shortcut: [leftmeta, w]
     clear_modifiers: true
     conditions:
-    - $window_class matches (?i)factorio
+    - any:
+      - $window_class == factorio
+      - $window_class == steam_app_427520
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Factorio
     actions:
     - 'on': begin
       input:
@@ -123,7 +150,12 @@ keyboard:
     shortcut: [leftshift, leftmeta, leftbrace]
     clear_modifiers: true
     conditions:
-    - $window_class matches (?i)factorio
+    - any:
+      - $window_class == factorio
+      - $window_class == steam_app_427520
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Factorio
     actions:
     - 'on': begin
       input:
@@ -136,7 +168,12 @@ keyboard:
     shortcut: [leftshift, leftmeta, rightbrace]
     clear_modifiers: true
     conditions:
-    - $window_class matches (?i)factorio
+    - any:
+      - $window_class == factorio
+      - $window_class == steam_app_427520
+      - all:
+        - $window_class == gamescope
+        - $window_title matches (?i)^Factorio
     actions:
     - 'on': begin
       input:
