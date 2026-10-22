@@ -53,7 +53,7 @@ mouse:
     actions:
     - 'on': begin
       input:
-      - keyboard: []
+      - keyboard: [e]
 
   # Back
   - id: schedule_i_back

@@ -33,7 +33,7 @@ Last updated October 21, 2026.
 
 | Trigger | Action |
 |---|---|
-| Forward |  |
+| Forward | E |
 | Back | Tab |
 | Side Button | Hold M |
 
