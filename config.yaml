@@ -17,6 +17,7 @@
 # actuator:folder Productivity = firefox, org.kde.dolphin, org.kde.konsole
 # actuator:foldericon Games = gamepad-2
 # actuator:foldericon Productivity = laptop
+# actuator:gamescope Schedule I
 
 # Actuator's options (Options → Store Preferences in Config). Safe to edit.
 # actuator:pref keep_versions = 10
@@ -90,7 +91,8 @@ keyboard:
     shortcut: [leftmeta, w]
     clear_modifiers: true
     conditions:
-    - $window_class matches (?i)^Schedule\ I$
+    - $window_class == gamescope
+    - $window_title == Schedule I
     actions:
     - 'on': begin
       input:
