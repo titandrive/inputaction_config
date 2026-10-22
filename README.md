@@ -33,7 +33,7 @@ Last updated October 21, 2026.
 
 | Trigger | Action |
 |---|---|
-| Side Button | E |
+| Side Button | Hold E |
 
 ## Productivity
 

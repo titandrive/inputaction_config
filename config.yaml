@@ -96,7 +96,10 @@ keyboard:
     actions:
     - 'on': begin
       input:
-      - keyboard: [e]
+      - keyboard: [+e]
+    - 'on': end_cancel
+      input:
+      - keyboard: [-e]
 
   # Factorio
   # --------------------------------------------------------------------------
