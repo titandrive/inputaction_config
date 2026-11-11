@@ -2,7 +2,7 @@
 
 # InputActions configuration
 
-Last updated October 21, 2026.
+Last updated November 10, 2026.
 
 ## Global
 
@@ -81,6 +81,31 @@ Last updated October 21, 2026.
 | 3-finger swipe up | Shift+Left | Previous Tab |
 | 3-finger swipe down | Shift+Right | Next Tab |
 | 5-finger click | Ctrl+Shift+W | Close tab |
+
+**Touchscreen**
+
+| Trigger | Action | Note |
+|---|---|---|
+| 3-finger swipe up | Ctrl+Tab | Previous tab |
+| 3-finger swipe down | Ctrl+Shift+Tab | Next tab |
+
+### Obsidian
+
+**Mouse**
+
+| Trigger | Action | Note |
+|---|---|---|
+| Left Wheel | Ctrl+Shift+Tab | Previous Tab |
+| Right Wheel | Ctrl+Tab | Next Tab |
+| Side Button | Ctrl+W | Close Tab |
+
+**Touchpad**
+
+| Trigger | Action | Note |
+|---|---|---|
+| 3-finger swipe up | Ctrl+Shift+Tab | Previous Tab |
+| 3-finger swipe down | Ctrl+Tab | Next Tab |
+| 5-finger click | Ctrl+W | Close tab |
 
 **Touchscreen**
 

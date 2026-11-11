@@ -4,7 +4,6 @@
 # Button names, apps, folders and devices used by Actuator. Safe to edit.
 # actuator:button back = Back
 # actuator:button forward = Forward
-# actuator:button left = Left
 # actuator:button leftmeta+w = Side Button
 # actuator:button leftshift+leftmeta+leftbrace = Left Wheel
 # actuator:button leftshift+leftmeta+rightbrace = Right Wheel
@@ -12,10 +11,11 @@
 # actuator:app Project Zomboid
 # actuator:app RimWorld
 # actuator:app Schedule I
+# actuator:app md.obsidian.Obsidian
 # actuator:app org.kde.dolphin
 # actuator:app org.kde.konsole
 # actuator:folder Games = factorio, RimWorld, Project Zomboid, Schedule I
-# actuator:folder Productivity = firefox, org.kde.dolphin, org.kde.konsole
+# actuator:folder Productivity = firefox, org.kde.dolphin, org.kde.konsole, md.obsidian.Obsidian
 # actuator:foldericon Games = gamepad-2
 # actuator:foldericon Productivity = laptop
 # actuator:game Project Zomboid = 108600
@@ -263,6 +263,47 @@ keyboard:
       input:
       - keyboard: [leftctrl+w]
 
+  # Obsidian
+  # --------------------------------------------------------------------------
+  # Left Wheel
+  # Note: Previous Tab
+  - id: md_obsidian_obsidian_mouse_tabs_left
+    type: shortcut
+    shortcut: [leftshift, leftmeta, leftbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+leftshift+tab]
+
+  # Right Wheel
+  # Note: Next Tab
+  - id: md_obsidian_obsidian_mouse_tabs_right
+    type: shortcut
+    shortcut: [leftshift, leftmeta, rightbrace]
+    clear_modifiers: true
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+tab]
+
+  # Side Button
+  # Note: Close Tab
+  - id: md_obsidian_obsidian_mouse_close_tab
+    type: shortcut
+    shortcut: [leftmeta, w]
+    clear_modifiers: true
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+w]
+
   # Konsole
   # --------------------------------------------------------------------------
   # Left Wheel
@@ -371,6 +412,43 @@ touchpad:
       input:
       - keyboard: [leftctrl+w]
 
+  # Obsidian
+  # --------------------------------------------------------------------------
+  # Note: Previous Tab
+  - id: md_obsidian_obsidian_tabs_up
+    type: swipe
+    fingers: 3
+    direction: up
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+leftshift+tab]
+
+  # Note: Next Tab
+  - id: md_obsidian_obsidian_tabs_down
+    type: swipe
+    fingers: 3
+    direction: down
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+tab]
+
+  # Note: Close tab
+  - id: md_obsidian_obsidian_close_tab_click_5
+    type: click
+    fingers: 5
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
+    actions:
+    - 'on': end
+      input:
+      - keyboard: [leftctrl+w]
+
   # Konsole
   # --------------------------------------------------------------------------
   # Note: Previous Tab
@@ -435,6 +513,32 @@ touchscreen:
     direction: down
     conditions:
     - $window_class == firefox
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+leftshift+tab]
+
+  # Obsidian
+  # --------------------------------------------------------------------------
+  # Note: Previous tab
+  - id: md_obsidian_obsidian_touchscreen_swipe
+    type: swipe
+    fingers: 3
+    direction: up
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
+    actions:
+    - 'on': begin
+      input:
+      - keyboard: [leftctrl+tab]
+
+  # Note: Next tab
+  - id: md_obsidian_obsidian_touchscreen_swipe_2
+    type: swipe
+    fingers: 3
+    direction: down
+    conditions:
+    - $window_class matches (?i)^md\.obsidian\.Obsidian$
     actions:
     - 'on': begin
       input:
